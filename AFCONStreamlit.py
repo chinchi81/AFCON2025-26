@@ -1,0 +1,113 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[71]:
+
+
+import streamlit as st
+
+st.set_page_config(
+    page_title="AFCON 2025-26 Predictions",   # Title shown in browser tab
+)
+
+st.title("AFCON 2025-26 Predictions")
+
+# Define tabs
+tab_names = ["Ratings","Group Fixtures", "Group Tables", "KO Probabilities"]
+tabs = st.tabs(tab_names)
+
+for tab, sheet in zip(tabs, tab_names):
+    with tab:
+        # --- Ratings: only embed Datawrapper chart ---
+        if sheet == "Ratings":
+            iframe = """
+            <iframe src="https://datawrapper.dwcdn.net/wPCfv/3/" 
+                    width="100%" 
+                    height="100%" 
+                    style="min-height: 90vh;" 
+                    frameborder="0"></iframe>
+            """
+            st.components.v1.html(iframe, height=770)
+        # --- Group Fixtures: only embed Datawrapper chart ---
+        elif sheet == "Group Fixtures":
+            iframe = """
+            <iframe src="https://datawrapper.dwcdn.net/U0Nyv/8/" 
+                    width="100%" 
+                    height="100%" 
+                    style="min-height: 90vh;" 
+                    frameborder="0"></iframe>
+            """
+            st.components.v1.html(iframe, height=1650)
+
+        # --- Group Tables: embed two Datawrapper charts under each other ---
+        elif sheet == "Group Tables":
+            iframe1 = """
+            <iframe src="https://datawrapper.dwcdn.net/CoBeg/3/" 
+                    width="100%" 
+                    height="500" 
+                    frameborder="0"></iframe>
+            """
+            st.components.v1.html(iframe1, height=300)
+            
+            iframe2 = """
+            <iframe src="https://datawrapper.dwcdn.net/wHAhD/3/" 
+                    width="100%" 
+                    height="500" 
+                    frameborder="0"></iframe>
+            """
+            st.components.v1.html(iframe2, height=240)
+            
+            iframe3 = """
+            <iframe src="https://datawrapper.dwcdn.net/edaIB/4/" 
+                    width="100%" 
+                    height="500" 
+                    frameborder="0"></iframe>
+            """
+            st.components.v1.html(iframe3, height=240)
+            
+            iframe4 = """
+            <iframe src="https://datawrapper.dwcdn.net/8Wmro/1/" 
+                    width="100%" 
+                    height="500" 
+                    frameborder="0"></iframe>
+            """
+            st.components.v1.html(iframe4, height=240)
+            
+            iframe5 = """
+            <iframe src="https://datawrapper.dwcdn.net/sO7rE/2/" 
+                    width="100%" 
+                    height="500" 
+                    frameborder="0"></iframe>
+            """
+            st.components.v1.html(iframe5, height=240)
+            
+            iframe6 = """
+            <iframe src="https://datawrapper.dwcdn.net/sg4z1/3/" 
+                    width="100%" 
+                    height="500" 
+                    frameborder="0"></iframe>
+            """
+            st.components.v1.html(iframe6, height=240)
+
+
+        # --- Stage Probabilities: placeholder ---
+        elif sheet == "KO Probabilities":
+            iframe = """
+            <iframe src="https://datawrapper.dwcdn.net/eaRV8/2/" 
+                    width="100%" 
+                    height="100%" 
+                    style="min-height: 90vh;" 
+                    frameborder="0"></iframe>
+            """
+            st.components.v1.html(iframe, height=1160)
+
+        # --- Other tabs: placeholders ---
+        else:
+            st.info(f"{sheet} tab — visualization can be added here.")
+
+
+# In[ ]:
+
+
+
+
