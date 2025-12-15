@@ -21,7 +21,7 @@ for tab, sheet in zip(tabs, tab_names):
         # --- Ratings: only embed Datawrapper chart ---
         if sheet == "Ratings":
             iframe = """
-            <iframe src="https://datawrapper.dwcdn.net/wPCfv/5/" 
+            <iframe src="https://datawrapper.dwcdn.net/wPCfv/4/" 
                     width="100%" 
                     height="100%" 
                     style="min-height: 90vh;" 
