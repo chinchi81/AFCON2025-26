@@ -66,7 +66,7 @@ for tab, sheet in zip(tabs, tab_names):
             st.components.v1.html(iframe3, height=240)
             
             iframe4 = """
-            <iframe src="https://datawrapper.dwcdn.net/8Wmro/1/" 
+            <iframe src="https://datawrapper.dwcdn.net/8Wmro/2/" 
                     width="100%" 
                     height="500" 
                     frameborder="0"></iframe>
