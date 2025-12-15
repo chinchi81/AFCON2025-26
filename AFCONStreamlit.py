@@ -122,7 +122,7 @@ for tab, sheet in zip(tabs, tab_names):
                     style="min-height: 90vh;" 
                     frameborder="0"></iframe>
             """
-            st.components.v1.html(iframe, height=1160)
+            st.components.v1.html(iframe, height=1500)
 
         # --- Other tabs: placeholders ---
         else:
