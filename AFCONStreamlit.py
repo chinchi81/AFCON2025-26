@@ -13,7 +13,7 @@ st.set_page_config(
 st.title("AFCON 2025-26 Predictions")
 
 # Define tabs
-tab_names = ["Ratings","Group Fixtures", "Group Tables", "KO Probabilities"]
+tab_names = ["Ratings","Group Fixtures W/D/L", "Group Fixtures Goals", "Group Tables", "KO Probabilities"]
 tabs = st.tabs(tab_names)
 
 for tab, sheet in zip(tabs, tab_names):
