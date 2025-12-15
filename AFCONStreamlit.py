@@ -93,7 +93,7 @@ for tab, sheet in zip(tabs, tab_names):
         # --- Stage Probabilities: placeholder ---
         elif sheet == "KO Probabilities":
             iframe = """
-            <iframe src="https://datawrapper.dwcdn.net/eaRV8/2/" 
+            <iframe src="https://datawrapper.dwcdn.net/eaRV8/3/" 
                     width="100%" 
                     height="100%" 
                     style="min-height: 90vh;" 
