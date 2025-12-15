@@ -42,7 +42,7 @@ for tab, sheet in zip(tabs, tab_names):
         # --- Group Tables: embed two Datawrapper charts under each other ---
         elif sheet == "Group Tables":
             iframe1 = """
-            <iframe src="https://datawrapper.dwcdn.net/CoBeg/3/" 
+            <iframe src="https://datawrapper.dwcdn.net/CoBeg/4/" 
                     width="100%" 
                     height="500" 
                     frameborder="0"></iframe>
