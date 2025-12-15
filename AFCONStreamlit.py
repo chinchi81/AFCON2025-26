@@ -82,7 +82,7 @@ for tab, sheet in zip(tabs, tab_names):
             st.components.v1.html(iframe5, height=240)
             
             iframe6 = """
-            <iframe src="https://datawrapper.dwcdn.net/sg4z1/3/" 
+            <iframe src="https://datawrapper.dwcdn.net/sg4z1/4/" 
                     width="100%" 
                     height="500" 
                     frameborder="0"></iframe>
