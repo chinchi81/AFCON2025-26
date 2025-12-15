@@ -21,7 +21,7 @@ for tab, sheet in zip(tabs, tab_names):
         # --- Ratings: only embed Datawrapper chart ---
         if sheet == "Ratings":
             iframe = """
-            <iframe src="https://datawrapper.dwcdn.net/wPCfv/4/" 
+            <iframe src="https://datawrapper.dwcdn.net/wPCfv/5/" 
                     width="100%" 
                     height="100%" 
                     style="min-height: 90vh;" 
@@ -31,7 +31,7 @@ for tab, sheet in zip(tabs, tab_names):
         # --- Group Fixtures: only embed Datawrapper chart ---
         elif sheet == "Group Fixtures":
             iframe = """
-            <iframe src="https://datawrapper.dwcdn.net/U0Nyv/9/" 
+            <iframe src="https://datawrapper.dwcdn.net/U0Nyv/10/" 
                     width="100%" 
                     height="100%" 
                     style="min-height: 90vh;" 
@@ -42,7 +42,7 @@ for tab, sheet in zip(tabs, tab_names):
         # --- Group Tables: embed two Datawrapper charts under each other ---
         elif sheet == "Group Tables":
             iframe1 = """
-            <iframe src="https://datawrapper.dwcdn.net/CoBeg/4/" 
+            <iframe src="https://datawrapper.dwcdn.net/CoBeg/5/" 
                     width="100%" 
                     height="500" 
                     frameborder="0"></iframe>
@@ -50,7 +50,7 @@ for tab, sheet in zip(tabs, tab_names):
             st.components.v1.html(iframe1, height=300)
             
             iframe2 = """
-            <iframe src="https://datawrapper.dwcdn.net/wHAhD/4/" 
+            <iframe src="https://datawrapper.dwcdn.net/wHAhD/5/" 
                     width="100%" 
                     height="500" 
                     frameborder="0"></iframe>
@@ -58,7 +58,7 @@ for tab, sheet in zip(tabs, tab_names):
             st.components.v1.html(iframe2, height=240)
             
             iframe3 = """
-            <iframe src="https://datawrapper.dwcdn.net/edaIB/5/" 
+            <iframe src="https://datawrapper.dwcdn.net/edaIB/6/" 
                     width="100%" 
                     height="500" 
                     frameborder="0"></iframe>
@@ -66,7 +66,7 @@ for tab, sheet in zip(tabs, tab_names):
             st.components.v1.html(iframe3, height=240)
             
             iframe4 = """
-            <iframe src="https://datawrapper.dwcdn.net/8Wmro/2/" 
+            <iframe src="https://datawrapper.dwcdn.net/8Wmro/3/" 
                     width="100%" 
                     height="500" 
                     frameborder="0"></iframe>
@@ -74,7 +74,7 @@ for tab, sheet in zip(tabs, tab_names):
             st.components.v1.html(iframe4, height=240)
             
             iframe5 = """
-            <iframe src="https://datawrapper.dwcdn.net/sO7rE/3/" 
+            <iframe src="https://datawrapper.dwcdn.net/sO7rE/4/" 
                     width="100%" 
                     height="500" 
                     frameborder="0"></iframe>
@@ -82,7 +82,7 @@ for tab, sheet in zip(tabs, tab_names):
             st.components.v1.html(iframe5, height=240)
             
             iframe6 = """
-            <iframe src="https://datawrapper.dwcdn.net/sg4z1/4/" 
+            <iframe src="https://datawrapper.dwcdn.net/sg4z1/5/" 
                     width="100%" 
                     height="500" 
                     frameborder="0"></iframe>
@@ -93,7 +93,7 @@ for tab, sheet in zip(tabs, tab_names):
         # --- Stage Probabilities: placeholder ---
         elif sheet == "KO Probabilities":
             iframe = """
-            <iframe src="https://datawrapper.dwcdn.net/eaRV8/3/" 
+            <iframe src="https://datawrapper.dwcdn.net/eaRV8/4/" 
                     width="100%" 
                     height="100%" 
                     style="min-height: 90vh;" 
