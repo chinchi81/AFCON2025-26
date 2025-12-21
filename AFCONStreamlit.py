@@ -56,54 +56,54 @@ for tab, sheet in zip(tabs, tab_names):
             subtab_names = ["Pre-Tournament", "Post Round 1", "Post Round 2", "Post Round 3"]
             subtabs = st.tabs(subtab_names)
     
-                with subtabs[0]:
-                    iframe1 = """
-                    <iframe src="https://datawrapper.dwcdn.net/CoBeg/5/" 
-                            width="100%" 
-                            height="500" 
-                            frameborder="0"></iframe>
-                    """
-                    st.components.v1.html(iframe1, height=300)
-                    
-                    iframe2 = """
-                    <iframe src="https://datawrapper.dwcdn.net/wHAhD/5/" 
-                            width="100%" 
-                            height="500" 
-                            frameborder="0"></iframe>
-                    """
-                    st.components.v1.html(iframe2, height=240)
-                    
-                    iframe3 = """
-                    <iframe src="https://datawrapper.dwcdn.net/edaIB/6/" 
-                            width="100%" 
-                            height="500" 
-                            frameborder="0"></iframe>
-                    """
-                    st.components.v1.html(iframe3, height=240)
-                    
-                    iframe4 = """
-                    <iframe src="https://datawrapper.dwcdn.net/8Wmro/3/" 
-                            width="100%" 
-                            height="500" 
-                            frameborder="0"></iframe>
-                    """
-                    st.components.v1.html(iframe4, height=240)
-                    
-                    iframe5 = """
-                    <iframe src="https://datawrapper.dwcdn.net/sO7rE/4/" 
-                            width="100%" 
-                            height="500" 
-                            frameborder="0"></iframe>
-                    """
-                    st.components.v1.html(iframe5, height=240)
-                    
-                    iframe6 = """
-                    <iframe src="https://datawrapper.dwcdn.net/sg4z1/5/" 
-                            width="100%" 
-                            height="500" 
-                            frameborder="0"></iframe>
-                    """
-                    st.components.v1.html(iframe6, height=240)
+            with subtabs[0]:
+                iframe1 = """
+                <iframe src="https://datawrapper.dwcdn.net/CoBeg/5/" 
+                        width="100%" 
+                        height="500" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframe1, height=300)
+                
+                iframe2 = """
+                <iframe src="https://datawrapper.dwcdn.net/wHAhD/5/" 
+                        width="100%" 
+                        height="500" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframe2, height=240)
+                
+                iframe3 = """
+                <iframe src="https://datawrapper.dwcdn.net/edaIB/6/" 
+                        width="100%" 
+                        height="500" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframe3, height=240)
+                
+                iframe4 = """
+                <iframe src="https://datawrapper.dwcdn.net/8Wmro/3/" 
+                        width="100%" 
+                        height="500" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframe4, height=240)
+                
+                iframe5 = """
+                <iframe src="https://datawrapper.dwcdn.net/sO7rE/4/" 
+                        width="100%" 
+                        height="500" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframe5, height=240)
+                
+                iframe6 = """
+                <iframe src="https://datawrapper.dwcdn.net/sg4z1/5/" 
+                        width="100%" 
+                        height="500" 
+                        frameborder="0"></iframe>
+                """
+                st.components.v1.html(iframe6, height=240)
 
 
         # --- Stage Probabilities: placeholder ---
