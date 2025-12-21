@@ -53,7 +53,7 @@ for tab, sheet in zip(tabs, tab_names):
 
         # --- Group Tables: embed two Datawrapper charts under each other ---
         elif sheet == "Group Tables":
-            subtab_names = ["Pre-Tournament", "Post Round 1", "Post Round 2", "Post Round 3"]
+            subtab_names = ["Pre-Tournament", "Post Round 1", "Post Round 2"]
             subtabs = st.tabs(subtab_names)
     
             with subtabs[0]:
