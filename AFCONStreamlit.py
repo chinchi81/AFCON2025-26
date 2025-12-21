@@ -43,7 +43,7 @@ for tab, sheet in zip(tabs, tab_names):
         # --- Group Fixtures: only embed Datawrapper chart ---
         elif sheet == "Group Fixtures Goals":
             iframe = """
-            <iframe src="https://datawrapper.dwcdn.net/HpwkH/1/" 
+            <iframe src="https://datawrapper.dwcdn.net/HpwkH/2/" 
                     width="100%" 
                     height="100%" 
                     style="min-height: 90vh;" 
