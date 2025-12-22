@@ -79,7 +79,7 @@ for tab, sheet in zip(tabs, tab_names):
                         height="500" 
                         frameborder="0"></iframe>
                 """
-                st.components.v1.html(iframe3, height=240)
+                st.components.v1.html(iframe3, height=280)
                 
                 iframe4 = """
                 <iframe src="https://datawrapper.dwcdn.net/8Wmro/3/" 
@@ -87,7 +87,7 @@ for tab, sheet in zip(tabs, tab_names):
                         height="500" 
                         frameborder="0"></iframe>
                 """
-                st.components.v1.html(iframe4, height=240)
+                st.components.v1.html(iframe4, height=280)
                 
                 iframe5 = """
                 <iframe src="https://datawrapper.dwcdn.net/sO7rE/4/" 
@@ -95,7 +95,7 @@ for tab, sheet in zip(tabs, tab_names):
                         height="500" 
                         frameborder="0"></iframe>
                 """
-                st.components.v1.html(iframe5, height=240)
+                st.components.v1.html(iframe5, height=280)
                 
                 iframe6 = """
                 <iframe src="https://datawrapper.dwcdn.net/sg4z1/5/" 
@@ -103,7 +103,7 @@ for tab, sheet in zip(tabs, tab_names):
                         height="500" 
                         frameborder="0"></iframe>
                 """
-                st.components.v1.html(iframe6, height=240)
+                st.components.v1.html(iframe6, height=280)
 
             with subtabs[1]:
                     iframe1 = """
@@ -120,7 +120,7 @@ for tab, sheet in zip(tabs, tab_names):
                             height="500" 
                             frameborder="0"></iframe>
                     """
-                    st.components.v1.html(iframe2, height=240)
+                    st.components.v1.html(iframe2, height=280)
 
 
         # --- Stage Probabilities: placeholder ---
