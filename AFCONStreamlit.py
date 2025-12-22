@@ -107,7 +107,7 @@ for tab, sheet in zip(tabs, tab_names):
 
             with subtabs[1]:
                     iframe1 = """
-                    <iframe src="https://datawrapper.dwcdn.net/I9ka1/1/" 
+                    <iframe src="https://datawrapper.dwcdn.net/I9ka1/2/" 
                             width="100%" 
                             height="500" 
                             frameborder="0"></iframe>
@@ -115,7 +115,7 @@ for tab, sheet in zip(tabs, tab_names):
                     st.components.v1.html(iframe1, height=300)
 
                     iframe2 = """
-                    <iframe src="https://datawrapper.dwcdn.net/rJYWi/1/" 
+                    <iframe src="https://datawrapper.dwcdn.net/rJYWi/2/" 
                             width="100%" 
                             height="500" 
                             frameborder="0"></iframe>
