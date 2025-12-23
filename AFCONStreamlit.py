@@ -122,6 +122,22 @@ for tab, sheet in zip(tabs, tab_names):
                     """
                     st.components.v1.html(iframe2, height=280)
 
+                    iframe3 = """
+                    <iframe src="https://datawrapper.dwcdn.net/224pj/1/" 
+                            width="100%" 
+                            height="500" 
+                            frameborder="0"></iframe>
+                    """
+                    st.components.v1.html(iframe3, height=280)
+                    
+                    iframe4 = """
+                    <iframe src="https://datawrapper.dwcdn.net/vY1dn/1/" 
+                            width="100%" 
+                            height="500" 
+                            frameborder="0"></iframe>
+                    """
+                    st.components.v1.html(iframe4, height=280)
+
 
         # --- Stage Probabilities: placeholder ---
         elif sheet == "KO Probabilities":
