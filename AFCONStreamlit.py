@@ -138,21 +138,21 @@ for tab, sheet in zip(tabs, tab_names):
                     """
                     st.components.v1.html(iframe4, height=240)
 
-                iframe5 = """
-                <iframe src="https://datawrapper.dwcdn.net/2O7s9/1/" 
-                        width="100%" 
-                        height="500" 
-                        frameborder="0"></iframe>
-                """
-                st.components.v1.html(iframe5, height=280)
-                
-                iframe6 = """
-                <iframe src="https://datawrapper.dwcdn.net/PX71m/1/" 
-                        width="100%" 
-                        height="500" 
-                        frameborder="0"></iframe>
-                """
-                st.components.v1.html(iframe6, height=280)
+                    iframe5 = """
+                    <iframe src="https://datawrapper.dwcdn.net/2O7s9/1/" 
+                            width="100%" 
+                            height="500" 
+                            frameborder="0"></iframe>
+                    """
+                    st.components.v1.html(iframe5, height=280)
+                    
+                    iframe6 = """
+                    <iframe src="https://datawrapper.dwcdn.net/PX71m/1/" 
+                            width="100%" 
+                            height="500" 
+                            frameborder="0"></iframe>
+                    """
+                    st.components.v1.html(iframe6, height=280)
 
 
         # --- Stage Probabilities: placeholder ---
