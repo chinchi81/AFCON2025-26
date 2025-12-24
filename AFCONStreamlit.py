@@ -144,7 +144,7 @@ for tab, sheet in zip(tabs, tab_names):
                             height="500" 
                             frameborder="0"></iframe>
                     """
-                    st.components.v1.html(iframe5, height=280)
+                    st.components.v1.html(iframe5, height=240)
                     
                     iframe6 = """
                     <iframe src="https://datawrapper.dwcdn.net/PX71m/1/" 
@@ -152,7 +152,7 @@ for tab, sheet in zip(tabs, tab_names):
                             height="500" 
                             frameborder="0"></iframe>
                     """
-                    st.components.v1.html(iframe6, height=280)
+                    st.components.v1.html(iframe6, height=240)
 
 
         # --- Stage Probabilities: placeholder ---
