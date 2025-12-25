@@ -162,7 +162,7 @@ for tab, sheet in zip(tabs, tab_names):
 
             with subtabs[0]:
                 iframe = """
-                <iframe src="https://datawrapper.dwcdn.net/eaRV8/4/" 
+                <iframe src="https://datawrapper.dwcdn.net/eaRV8/5/" 
                         width="100%" 
                         height="100%" 
                         style="min-height: 90vh;" 
